@@ -1,0 +1,17 @@
+
+body{
+    margin: 0 auto;
+    height: 100vh;
+}
+section.top-page{
+    background: url('../photos/home.png');
+    background-size: cover;
+    height: 100vh;
+}
+header.header img{
+    width: 150px;
+}
+nav.nav{
+display: flex;
+list-style: none;
+}
