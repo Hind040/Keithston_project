@@ -240,7 +240,6 @@ display: flex;
     height: 400%;
     width: 100%;
     gap: 20px;
-
 }
 .features h1{
 font-family: Sansita Swashed;
@@ -249,7 +248,15 @@ display: flex;
 justify-content: center;
 text-align: center;
 }
+.treats{
+  height: 80%;
+  width: 20%;
+}
 .treats img{
-    height: 30%;
-    width: 3%;
+    height: 100%;
+    width: 100%;
+}
+.treats p{
+    margin: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
