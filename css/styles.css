@@ -1,17 +1,255 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    margin: 0 auto;
     height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
 }
-section.top-page{
-    background: url('../photos/home.png');
+.header {
+    position: fixed;
+  display: flex;                
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  width: 100%;
+
+}
+img {
+  height: 120px;
+  width:120px ; 
+  position:relative;
+  top: 10px;
+
+}
+.hero{
+    background-image: url('/photos/home.png');
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
-header.header img{
-    width: 150px;
+.nav {
+   position: fixed;
+  display: flex; 
+  justify-content: center; 
+  align-items:center ;
+  gap: 30px; 
+  list-style: none; 
+  margin: 50px;
+  padding: 0;
+  right: 50%;
 }
-nav.nav{
+.nav a {
+  text-decoration: none;
+  color: white;
+  right: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero h4{
+    position: relative;
+    left: 15px;
+    top: 90px;
+    height: 50%;
+    width: 50%;
+}
+.hero h1{
+    font-family:  Sansita Swashed;
+    font-size: 50px;
+    top: 25%;
+    position: absolute;
+    color: white;
+    left: 5%;
+}
+
+.btn-primary{
+    background-color: #933C24;
+    padding: 15px 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 300px;
+    left: 5%;
+    padding: 20px;
+}
+.btn-secondary{
+    background-color: transparent;
+    color: white;
+    left: 5%;
+    padding: 20px;
+}
+.buttons{
+    margin: 20px;
+    padding: 20px;
+}
+.title h1{
+    font-family: Sansita Swashed ;
+    font-size: 50px;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.card{
+background-image: url('/photos/top_products_baground.png');
+width: 250px;
+border-radius: 10px;
+padding: 20px;
+color: white;
+margin: 20px;
+}
+.card button{
+    margin: 5px;
+    padding: 5px;
+    background-color: #933C24;
+    border-radius: 5px;
+}
+.Services{
+    background-image: url('/photos/first_order.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 260px;
+}
+.More h1{
+    font-family: Sansita Swashed;
+    font-size: 40px;
+    color: #933C24;
+    padding: 10px;
+}
+.More{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.More p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.More button{
+    background-color: #933C24;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 120px;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 20px;
+    color: #933C24;
+}
+.explorer h1{
+    font-family: Sansita Swashed;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pics-cards-container{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap; 
+   height: 800px;
+   width: 100%;
+   gap: 20px;
+   align-content: flex-start;
+   margin-bottom: 90px;
+}
+.pics{
+   height: 50%;
+   width: 30%; 
+   margin: 0 ; 
+   padding: 0;
+
+
+}
+.pics img{
+    width: 100%;
+    height: 100%;
+}
+.about-us{
+background-image: url('/photos/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 260px;
+}
+.about{
 display: flex;
-list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.about h1{
+    font-family: Sansita Swashed;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about button{
+    display: flex;
+    background-color: #933C24;
+    padding: 10px 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.features-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400%;
+    width: 100%;
+    gap: 20px;
+
+}
+.features h1{
+font-family: Sansita Swashed;
+font-size: 50px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.treats img{
+    height: 30%;
+    width: 3%;
 }
