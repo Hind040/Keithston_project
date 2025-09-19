@@ -247,6 +247,7 @@ font-size: 50px;
 display: flex;
 justify-content: center;
 text-align: center;
+margin: 20px;
 }
 .treats{
   height: 80%;
@@ -259,4 +260,24 @@ text-align: center;
 .treats p{
     margin: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.buttom-page{
+    background-image: url('/photos/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+}
+.nav-follow-us{
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+.nav-follow-us a{
+   top: 0;
+   text-decoration: none;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
 }
