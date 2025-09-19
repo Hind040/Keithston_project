@@ -262,22 +262,80 @@ margin: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
-.buttom-page{
+.footer{
     background-image: url('/photos/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 260px;
+    height: 500px;
 }
-.nav-follow-us{
-    display: flex;
-    justify-content: center;
-    padding:0;
+.footer-social {
+  text-align: right;
+  margin-bottom: 50px;
 }
-.nav-follow-us a{
-   top: 0;
-   text-decoration: none;
-   color: white;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+
+.footer-social p {
+  color:#E9BD8C;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-social a {
+  color:#E9BD8C;
+  margin: 0 8px;
+  font-size: 20px;
 
 }
+.footer h3 {
+  color:  #E9BD8C;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navfooter {
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navfooter a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.news-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.news-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.recent-news p{
+color:white ;
+}
+.news-item p{
+    color: white;
+}
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #bbb;
+}
+
